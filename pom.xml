@@ -139,6 +139,9 @@
 					<version>${apache-rat-plugin.version}</version>
 					<configuration>
 						<addDefaultLicenseMatchers>true</addDefaultLicenseMatchers>
+						<excludes>
+							<exclude>README.md</exclude>
+						</excludes>
 					</configuration>
 				</plugin>
 				<plugin>
